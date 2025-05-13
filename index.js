@@ -9,7 +9,7 @@ const agent = new https.Agent({
 });
 
 const USER_TOKEN =
-  "MTI0OTcwMDYyNDExNTk2MTkxNw.GQYFOA.dy8A9Mw136mgT6JtVC2zg8EfkhL1f-6YruZEr8"; // Replace with mtd.cookies.get('token')
+  token; // Replace with mtd.cookies.get('token')
 const CHANNEL_ID = "1371915549155790922"; // From devtools > network > messages
 
 // 🎲 RANDOM MESSAGE GENERATOR (UNICODE + EMOJI SPAM)
